@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Haiyang Huang - Resume</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 40px;
+            padding: 20px;
+            background-color: #f4f4f4;
+        }
+        .container {
+            max-width: 800px;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1, h2 {
+            color: #333;
+        }
+        .contact {
+            margin-bottom: 20px;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        ul li {
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>简历 - Haiyang Huang</h1>
+        <p><strong>Address:</strong> Argyle Street 1-1 1175, G3 8TQ, Glasgow, UK</p>
+        <p><strong>Phone:</strong> 07873631438</p>
+        <p><strong>Email:</strong> sea1296264712@gmail.com</p>
+        
+        <h2>About Me</h2>
+        <p>Motivated and detail-oriented Computer Systems Engineering student at the University of Glasgow. Passionate about software development, systems design, and network engineering.</p>
+        
+        <h2>Education</h2>
+        <p><strong>University of Glasgow</strong> (2025 - 2026)</p>
+        <p>MSc in Computer Systems Engineering</p>
+        
+        <h2>Skills</h2>
+        <ul>
+            <li><strong>Programming Languages:</strong> Python, JavaScript, C++, SQL</li>
+            <li><strong>Technical Skills:</strong> Software Development, Machine Learning, Data Analysis</li>
+            <li><strong>Tools:</strong> MATLAB, Cloud Computing, Database Management</li>
+        </ul>
+        
+        <h2>Projects</h2>
+        <h3>Smart Traffic Management System</h3>
+        <p>Developed a prototype using real-time sensor data and machine learning to optimize traffic flow, reducing wait times by 15%.</p>
+        
+        <h3>Automated Inventory Management System</h3>
+        <p>Built a cloud-integrated system for tracking inventory levels, reducing stockouts and improving efficiency for a retail business.</p>
+        
+        <h2>Awards & Acknowledgements</h2>
+        <p>Recognized for the Smart Traffic Management System's scalability and impact on urban mobility.</p>
+    </div>
+</body>
+</html>
