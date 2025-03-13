@@ -1,0 +1,90 @@
+DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>HTML Learning Notes</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f0f0f0;
+      margin: 20px;
+      padding: 20px;
+    }
+    h1, h2 {
+      color: #333;
+    }
+    p {
+      font-size: 16px;
+      line-height: 1.6;
+      color: #555;
+    }
+    .code-sample {
+      background-color: #e2e2e2;
+      border-radius: 4px;
+      padding: 10px;
+      font-family: Consolas, monospace;
+      white-space: pre-wrap;
+      margin-top: 10px;
+    }
+    .section {
+      margin-bottom: 20px;
+    }
+  </style>
+</head>
+<body>
+  <h1>HTML Learning Notes</h1>
+  
+  <div class="section">
+    <h2>1. Introduction to HTML</h2>
+    <p>HTML (HyperText Markup Language) is the standard language used to create the structure of web pages. It defines the layout and organization of content using various elements and tags.</p>
+    <p>Understanding HTML is fundamental for web development, as it helps in structuring content in a logical and accessible way, making it easier for users and search engines to navigate the web page.</p>
+  </div>
+  
+  <div class="section">
+    <h2>2. Basic Tags and Structure</h2>
+    <p>HTML includes a wide range of tags, such as headings (<code>&lt;h1&gt;</code> to <code>&lt;h6&gt;</code>), paragraphs (<code>&lt;p&gt;</code>), and lists (<code>&lt;ul&gt;</code>, <code>&lt;ol&gt;</code>, <code>&lt;li&gt;</code>).</p>
+    <p>These elements allow you to divide your page into logical sections like header, main content, and footer. For example, you can use the <code>&lt;header&gt;</code> tag for navigation, <code>&lt;main&gt;</code> for primary content, and <code>&lt;footer&gt;</code> for additional information like copyrights or contact details.</p>
+  </div>
+  
+  <div class="section">
+    <h2>3. Tag Attributes and Hyperlinks</h2>
+    <p>Every HTML tag can include attributes to provide additional information. For example, the <code>&lt;a&gt;</code> tag uses the <code>href</code> attribute to define the destination of a hyperlink, and the <code>&lt;img&gt;</code> tag uses the <code>src</code> attribute to specify the image source along with the <code>alt</code> attribute for accessibility.</p>
+    <p>Hyperlinks are essential for connecting related pages and resources, making navigation intuitive and enhancing the overall user experience.</p>
+  </div>
+  
+  <div class="section">
+    <h2>4. Embedded and External Styles</h2>
+    <p>This example uses internal CSS to style the web page. In larger projects, developers typically use external CSS files to maintain consistent styling across multiple pages and simplify the maintenance process.</p>
+    <p>CSS is responsible for the visual appearance of a web page, controlling aspects such as colors, fonts, layouts, and responsive design. This separation of content (HTML) and presentation (CSS) makes the development process more efficient.</p>
+  </div>
+  
+  <div class="section">
+    <h2>5. Example Code</h2>
+    <p>The following sample code demonstrates how to combine HTML and CSS to create a basic web page structure:</p>
+    <div class="code-sample">
+      &lt;!DOCTYPE html&gt;<br>
+      &lt;html lang="en"&gt;<br>
+      &nbsp;&nbsp;&lt;head&gt;<br>
+      &nbsp;&nbsp;&nbsp;&nbsp;&lt;meta charset="UTF-8"&gt;<br>
+      &nbsp;&nbsp;&nbsp;&nbsp;&lt;title&gt;My Sample Page&lt;/title&gt;<br>
+      &nbsp;&nbsp;&nbsp;&nbsp;&lt;style&gt;<br>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;body { font-family: Arial, sans-serif; background-color: #fff; margin: 0; padding: 20px; }<br>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;h1 { color: #333; }<br>
+      &nbsp;&nbsp;&nbsp;&nbsp;&lt;/style&gt;<br>
+      &nbsp;&nbsp;&lt;/head&gt;<br>
+      &nbsp;&nbsp;&lt;body&gt;<br>
+      &nbsp;&nbsp;&nbsp;&nbsp;&lt;h1&gt;Welcome to My Page&lt;/h1&gt;<br>
+      &nbsp;&nbsp;&nbsp;&nbsp;&lt;p&gt;This is a simple example combining HTML and CSS to create a basic web page structure.&lt;/p&gt;<br>
+      &nbsp;&nbsp;&lt;/body&gt;<br>
+      &lt;/html&gt;
+    </div>
+  </div>
+  
+  <div class="section">
+    <h2>6. Summary</h2>
+    <p>HTML provides the foundation for web content by defining its structure, while CSS enhances the look and feel of the page. Together, they form the core of front-end web development.</p>
+    <p>Mastering HTML and CSS is essential for building professional websites, and it lays the groundwork for learning more advanced technologies like JavaScript, which adds interactivity and dynamic functionality to web applications.</p>
+  </div>
+  
+</body>
+</html>
